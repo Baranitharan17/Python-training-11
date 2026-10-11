@@ -24,3 +24,8 @@ plt.show() """
 import numpy as np
 numbers=np.array([10,20,30,40,50,60,70,80,90,100])
 print("The array of numbers :", numbers)
+
+maximum = np.max(numbers)
+minimum = np.min(numbers)
+average=np.mean(numbers)
+total=np.sum(numbers)
